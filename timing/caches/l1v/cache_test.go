@@ -5,9 +5,9 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	. "gitlab.com/akita/mgpusim/timing/caches/l1v"
 	"gitlab.com/akita/mem/cache"
 	"gitlab.com/akita/mem/idealmemcontroller"
+	. "gitlab.com/akita/mgpusim/timing/caches/l1v"
 
 	"gitlab.com/akita/akita"
 	"gitlab.com/akita/mem"

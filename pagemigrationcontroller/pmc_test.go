@@ -273,7 +273,7 @@ var _ = Describe("PMC", func() {
 			req := mem.WriteReqBuilder{}.
 				WithSendTime(10).
 				WithSrc(pmc.LocalMemPort).
-				WithDst(pmc.MemCtrlFinder.Find(0X100)).
+				WithDst(pmc.MemCtrlFinder.Find(0x100)).
 				WithAddress(0x100).
 				WithData(data).
 				Build()

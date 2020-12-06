@@ -374,7 +374,7 @@ func (u *ALUImpl) runVASHRREVI32(state InstEmuState) {
 			}
 			src0 := uint32(sp.SRC0[i])
 			src1 := int32(sp.SRC1[i])
-			dst := src1 >> (src0 & 0X1f)
+			dst := src1 >> (src0 & 0x1f)
 			sp.DST[i] = uint64(dst)
 		}
 	} else {

@@ -8,7 +8,7 @@ import (
 var _ = Describe("Buddy Allocator Metadata Structures", func() {
 
 	var (
-		bitfield    *bitField
+		bitfield *bitField
 	)
 
 	BeforeEach(func() {

@@ -335,7 +335,7 @@ func (u *ALUImpl) runVCVTF16F32(state InstEmuState) {
 		if exp == 0 {
 			exp16 = 0
 		} else if exp == 0xff {
-			exp16 = 0X1f
+			exp16 = 0x1f
 		} else {
 			if exp16 > 0x1e {
 				exp16 = 0x1f

@@ -6,10 +6,10 @@ import (
 	"gitlab.com/akita/mem/idealmemcontroller"
 
 	"gitlab.com/akita/akita"
-	"gitlab.com/akita/mgpusim/timing/caches/l1v"
 	"gitlab.com/akita/mem"
 	"gitlab.com/akita/mem/acceptancetests"
 	"gitlab.com/akita/mem/cache"
+	"gitlab.com/akita/mgpusim/timing/caches/l1v"
 )
 
 type test struct {
